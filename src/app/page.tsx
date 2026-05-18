@@ -11,7 +11,7 @@ import FooterBase from '@/components/sections/footer/FooterBase';
 import HeroSplitKpi from '@/components/sections/hero/HeroSplitKpi';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import TestimonialCardSixteen from '@/components/sections/testimonial/TestimonialCardSixteen';
-import { Database, Mail, Map, Share2, Shield, ShoppingCart, Star, Zap } from "lucide-react";
+import { Database, Mail, Map, Share2, Shield, ShoppingCart, Star, Zap, MapPin, Phone } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -36,7 +36,7 @@ export default function LandingPage() {
         { name: "FAQ", id: "#faq" },
         { name: "Blog", id: "#blog" },
       ]}
-      brandName="Outscraper"
+      brandName="Top Top Business Consultants Pty Ltd"
     />
   </div>
 
@@ -44,30 +44,21 @@ export default function LandingPage() {
       <HeroSplitKpi
       background={{
         variant: "gradient-bars"}}
-      title="Get any public data from the internet"
-      description="Scrape Google Maps Places, Reviews, Photos, and more. Apply cutting-edge technologies to extract the data you need reliably."
+      title="Top Top Business Consultants Pty Ltd"
+      description="Professional consulting services located at 337 Surrey Ave, Ferndale, Randburg. We provide expert business guidance tailored to your specific needs."
       kpis={[
-        { value: "100M+", label: "Records Extracted" },
-        { value: "99.9%", label: "Data Accuracy" },
-        { value: "24/7", label: "Active Support" },
+        { value: "4.1/5", label: "Customer Rating" },
+        { value: "8", label: "Total Reviews" },
+        { value: "011 568 1493", label: "Contact Us" },
       ]}
       enableKpiAnimation={true}
       imageSrc="http://img.b2bpic.net/free-photo/man-woman-collaborate-content-creation-media-industry_482257-126685.jpg"
       mediaAnimation="slide-up"
-      avatars={[
-        { src: "http://img.b2bpic.net/free-photo/notorious-trader-constructing-dynasty-via-shifts-markets_482257-88025.jpg", alt: "Notorious trader" },
-        { src: "http://img.b2bpic.net/free-photo/person-working-relation-innovation_53876-16535.jpg", alt: "Innovation specialist" },
-        { src: "http://img.b2bpic.net/free-photo/two-developers-team-interact-with-virtual-ai-assistant-pc-design-game-hub-using-machine_482257-136127.jpg", alt: "AI developers" },
-        { src: "http://img.b2bpic.net/free-photo/woman-typing-prompts-into-ai-powered-chat-system-her-computer_482257-124123.jpg", alt: "AI prompt engineer" },
-        { src: "http://img.b2bpic.net/free-photo/sleepy-frustrated-woman-monitoring-locating-couriers-traffic_482257-89108.jpg", alt: "Data manager" },
-      ]}
-      avatarText="Trusted by 500+ developers"
+      avatarText="Trusted by our local community"
       marqueeItems={[
-        { type: "text-icon", text: "Google Maps", icon: Map },
-        { type: "text-icon", text: "Email Verification", icon: Mail },
-        { type: "text-icon", text: "E-commerce Insights", icon: ShoppingCart },
-        { type: "text-icon", text: "Social Media", icon: Share2 },
-        { type: "text-icon", text: "Review Mining", icon: Star },
+        { type: "text-icon", text: "337 Surrey Ave, Ferndale", icon: MapPin },
+        { type: "text-icon", text: "011 568 1493", icon: Phone },
+        { type: "text-icon", text: "Expert Consulting", icon: Shield },
       ]}
     />
   </div>
@@ -75,11 +66,11 @@ export default function LandingPage() {
   <div id="metrics" data-section="metrics">
       <AboutMetric
       useInvertedBackground={false}
-      title="Reliability at Scale"
+      title="Business Excellence"
       metrics={[
-        { icon: Database, label: "Data sources", value: "50+" },
-        { icon: Zap, label: "Request speed", value: "Fast" },
-        { icon: Shield, label: "Uptime", value: "99.9%" },
+        { icon: Star, label: "Rating", value: "4.1" },
+        { icon: Database, label: "Reviews", value: "8" },
+        { icon: MapPin, label: "Location", value: "Randburg" },
       ]}
       metricsAnimation="blur-reveal"
     />
@@ -91,14 +82,14 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Google Maps Scraping",          description: "Turn local business discovery into automated lead lists, saving your sales team hours of manual research.",          imageSrc: "http://img.b2bpic.net/free-photo/map-gps-location-direction-position-graphic_53876-132170.jpg"},
+          title: "Business Strategy",          description: "Comprehensive consulting services tailored to the needs of local businesses in Randburg.",          imageSrc: "http://img.b2bpic.net/free-photo/map-gps-location-direction-position-graphic_53876-132170.jpg"},
         {
-          title: "Email Validation",          description: "Eliminate bounce rates instantly by verifying emails in bulk, protecting your sender reputation automatically.",          imageSrc: "http://img.b2bpic.net/free-photo/freelancer-uses-virtual-assistant-via-artificial-intelligence-solutions_482257-123038.jpg"},
+          title: "Professional Advice",          description: "Expert guidance from our experienced team to help your business reach new heights.",          imageSrc: "http://img.b2bpic.net/free-photo/freelancer-uses-virtual-assistant-via-artificial-intelligence-solutions_482257-123038.jpg"},
         {
-          title: "E-commerce Insights",          description: "Track competitor pricing and product sentiment changes without manual monitoring, keeping your strategy ahead.",          imageSrc: "http://img.b2bpic.net/free-photo/robot-with-screen_1048-4564.jpg"},
+          title: "Location Focused",          description: "Conveniently situated at 337 Surrey Ave, we are accessible to support your operations locally.",          imageSrc: "http://img.b2bpic.net/free-photo/robot-with-screen_1048-4564.jpg"},
       ]}
-      title="Powerful Scraping Services"
-      description="We automate the heavy lifting of data collection so you can focus on building your business, not searching for information."
+      title="Expert Business Consulting"
+      description="We combine local knowledge with professional consulting standards to assist companies in the Randburg area."
     />
   </div>
 
@@ -109,28 +100,16 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "1",          name: "Mihai Vinatoru",          role: "Managing Partner",          company: "Outscraper Client",          rating: 5,
+          id: "1",          name: "Client Feedback",          role: "Local Business",          company: "Randburg",          rating: 4.1,
           imageSrc: "http://img.b2bpic.net/free-photo/company-worker-browsing-internet-research-project-using-computer-create-business-report-with-charts-data-analyzing-network-information-web-presentation-handheld-shot_482257-50935.jpg"},
-        {
-          id: "2",          name: "Sarah Jenkins",          role: "CTO",          company: "Growth Agency",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-smiling-employee_1098-1210.jpg"},
-        {
-          id: "3",          name: "Alex Chen",          role: "Data Analyst",          company: "Insights Corp",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/smiling-beautiful-middle-aged-business-woman_1262-3085.jpg"},
-        {
-          id: "4",          name: "Maria Garcia",          role: "Founder",          company: "StartUp Pro",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/happy-business-woman-standing-outdoors_1262-20546.jpg"},
-        {
-          id: "5",          name: "David Smith",          role: "Lead Dev",          company: "Web Solutions",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/cheerful-attractive-businesswoman-crossing-arms_1262-4724.jpg"},
       ]}
       kpiItems={[
-        { value: "5.0", label: "Rating" },
-        { value: "500+", label: "Happy Clients" },
-        { value: "95%", label: "Retention" },
+        { value: "4.1", label: "Rating" },
+        { value: "8", label: "Reviews" },
+        { value: "Active", label: "Consulting" },
       ]}
-      title="What Clients Say"
-      description="We believe public data is for everybody. Here is why our clients trust our infrastructure."
+      title="Client Satisfaction"
+      description="Our commitment to quality is reflected in the feedback from our valued clients."
     />
   </div>
 
@@ -139,11 +118,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       faqs={[
         {
-          id: "q1",          title: "Is scraping legal?",          content: "We extract only public data, adhering to strict ethical standards and industry guidelines."},
+          id: "q1",          title: "Where are you located?",          content: "We are located at 337 Surrey Ave, Ferndale, Randburg."},
         {
-          id: "q2",          title: "How fast is delivery?",          content: "Our distributed architecture ensures lightning-fast data processing for any scale."},
+          id: "q2",          title: "How can I reach you?",          content: "You can call us directly at 011 568 1493."},
         {
-          id: "q3",          title: "Can I integrate APIs?",          content: "Yes, our platform supports seamless integration with Zapier, Make.com, and custom webhooks."},
+          id: "q3",          title: "What is your focus?",          content: "We focus on high-quality business consulting to help local companies thrive."},
       ]}
       sideTitle="Common Questions"
       faqsAnimation="slide-up"
@@ -155,15 +134,11 @@ export default function LandingPage() {
       animationType="slide-up"
       textboxLayout="split"
       useInvertedBackground={false}
-      title="Latest Tutorials"
-      description="Learn how to automate your workflows and maximize your data scraping results."
+      title="Business Insights"
+      description="Read about our latest consulting methodologies and local business updates."
       blogs={[
         {
-          id: "b1",          category: "Tutorial",          title: "Automate Google Maps Leads",          excerpt: "Connect Outscraper to Make.com and turn data into Google Sheets rows.",          imageSrc: "http://img.b2bpic.net/free-photo/cloud-computing-network-connection-perforated-paper_53876-14262.jpg",          authorName: "Dev Team",          authorAvatar: "http://img.b2bpic.net/free-photo/portrait-attractive-charming-brunette-glasses-blue-shirt-crossed-arms-listening-music-headphones-leaning-against-brick-wall-room-with-loft-design_613910-9173.jpg",          date: "Feb 2026"},
-        {
-          id: "b2",          category: "Tutorial",          title: "Scraping Data at Scale",          excerpt: "How to handle large volumes of business records effectively.",          imageSrc: "http://img.b2bpic.net/free-photo/smart-photovoltaics-factory-expert-gathering-system-performance-metrics-with-ai_482257-125992.jpg",          authorName: "Dev Team",          authorAvatar: "http://img.b2bpic.net/free-photo/business-woman-green-suit-using-phone-outside-street_1303-29546.jpg",          date: "Jan 2026"},
-        {
-          id: "b3",          category: "Tutorial",          title: "Data Ethics Guide",          excerpt: "Best practices for respectful web scraping in 2026.",          imageSrc: "http://img.b2bpic.net/free-photo/multiethnic-specialists-engineers-doing-teamwork-modern-production-line_482257-125956.jpg",          authorName: "Dev Team",          authorAvatar: "http://img.b2bpic.net/free-photo/confident-cheerful-businesswoman_1262-21021.jpg",          date: "Dec 2025"},
+          id: "b1",          category: "News",          title: "Ferndale Business Growth",          excerpt: "Explore how local firms are leveraging professional guidance to expand in Randburg.",          imageSrc: "http://img.b2bpic.net/free-photo/cloud-computing-network-connection-perforated-paper_53876-14262.jpg",          authorName: "Consulting Team",          authorAvatar: "http://img.b2bpic.net/free-photo/portrait-attractive-charming-brunette-glasses-blue-shirt-crossed-arms-listening-music-headphones-leaning-against-brick-wall-room-with-loft-design_613910-9173.jpg",          date: "Feb 2026"},
       ]}
     />
   </div>
@@ -173,12 +148,12 @@ export default function LandingPage() {
       useInvertedBackground={false}
       background={{
         variant: "sparkles-gradient"}}
-      tag="Get Started"
-      title="Ready to get public data?"
-      description="Join thousands of businesses relying on our infrastructure for accurate data delivery."
+      tag="Contact Us"
+      title="Get Professional Guidance"
+      description="Located in the heart of Randburg at 337 Surrey Ave. Let's discuss how we can help your business."
       buttons={[
         {
-          text: "Start Scraping",          href: "#"},
+          text: "Call 011 568 1493",          href: "tel:0115681493"},
       ]}
     />
   </div>
@@ -187,32 +162,25 @@ export default function LandingPage() {
       <FooterBase
       columns={[
         {
-          title: "Product",          items: [
-            {
-              label: "Maps Scraper",              href: "#"},
-            {
-              label: "Email Validator",              href: "#"},
+          title: "Services",          items: [
+            { label: "Business Consulting", href: "#" },
           ],
         },
         {
-          title: "Company",          items: [
-            {
-              label: "About Us",              href: "#"},
-            {
-              label: "Blog",              href: "#"},
+          title: "Information",          items: [
+            { label: "337 Surrey Ave", href: "#" },
+            { label: "Ferndale, Randburg", href: "#" },
           ],
         },
         {
           title: "Support",          items: [
-            {
-              label: "Contact",              href: "#"},
-            {
-              label: "Privacy Policy",              href: "#"},
+            { label: "011 568 1493", href: "tel:0115681493" },
+            { label: "Privacy Policy", href: "#" },
           ],
         },
       ]}
-      logoText="Outscraper"
-      copyrightText="© 2026 Outscraper | Public data for everybody"
+      logoText="Top Top Business Consultants"
+      copyrightText="© 2026 Top Top Business Consultants Pty Ltd"
     />
   </div>
       </ReactLenis>
