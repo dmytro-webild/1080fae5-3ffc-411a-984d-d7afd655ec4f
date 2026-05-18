@@ -91,14 +91,14 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Google Maps Scraping",          description: "Extract precise location data, reviews, and contact info instantly.",          imageSrc: "http://img.b2bpic.net/free-photo/map-gps-location-direction-position-graphic_53876-132170.jpg"},
+          title: "Google Maps Scraping",          description: "Turn local business discovery into automated lead lists, saving your sales team hours of manual research.",          imageSrc: "http://img.b2bpic.net/free-photo/map-gps-location-direction-position-graphic_53876-132170.jpg"},
         {
-          title: "Email Validation",          description: "Ensure your outreach list is clean and verified for maximum deliverability.",          imageSrc: "http://img.b2bpic.net/free-photo/freelancer-uses-virtual-assistant-via-artificial-intelligence-solutions_482257-123038.jpg"},
+          title: "Email Validation",          description: "Eliminate bounce rates instantly by verifying emails in bulk, protecting your sender reputation automatically.",          imageSrc: "http://img.b2bpic.net/free-photo/freelancer-uses-virtual-assistant-via-artificial-intelligence-solutions_482257-123038.jpg"},
         {
-          title: "E-commerce Insights",          description: "Monitor product pricing and reviews from Amazon and other major platforms.",          imageSrc: "http://img.b2bpic.net/free-photo/robot-with-screen_1048-4564.jpg"},
+          title: "E-commerce Insights",          description: "Track competitor pricing and product sentiment changes without manual monitoring, keeping your strategy ahead.",          imageSrc: "http://img.b2bpic.net/free-photo/robot-with-screen_1048-4564.jpg"},
       ]}
       title="Powerful Scraping Services"
-      description="We stand for our beliefs and apply cutting-edge technologies to provide the data you need."
+      description="We automate the heavy lifting of data collection so you can focus on building your business, not searching for information."
     />
   </div>
 
